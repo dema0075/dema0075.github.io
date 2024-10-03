@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week4</title>
+</head>
+
+<body>
+    <header>
+        <h1>week4</h1>
+    </header>
+    <main>
+        <h2>Image tag example</h2>
+        <!--if the image is decorative keep the alt tag empty alt:""-->
+        <img src="./images/bmw-tags.jpeg" alt="bmw sticker" width="500">
+        <img src="./images/bmw-tags.jpeg" title="bmw sticker" width="500">
+        <!--learning about tag-->
+
+        <h2>Link tag example</h2>
+        <p>Here is a link to visit <a href="https://www.google.com" target="_blank">Google Homepage</a></p>
+        <p><a href="./thanks.html" target="_blank">Thank you page</a></p>
+
+        <p><a href="#cakes">Jump to cake menu</a></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad neque perferendis debitis asperiores ipsa dolor
+            veritatis est architecto explicabo libero dolorem obcaecati natus id culpa tempore, dolorum at facere
+            corporis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque fuga quae velit deserunt ab
+            corrupti corporis debitis beatae culpa, voluptas nulla tempora reiciendis vero quidem nesciunt consequuntur,
+            architecto voluptatum. Deserunt.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ad iusto alias sapiente perspiciatis
+            necessitatibus eum repellat inventore, eligendi sint! Laudantium commodi doloribus laborum non maxime
+            eligendi ea adipisci quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam officia
+            quam velit nam. Quasi dicta saepe numquam. Commodi temporibus neque illo unde consequuntur. Natus voluptates
+            delectus itaque dignissimos quibusdam?</p>
+        <ul id="cakes">
+            <li>Red velvet</li>
+            <li>Tiramisu</li>
+        </ul>
+        <!--table in html-->
+        <h2>Simple html table</h2>
+
+        <table border="1.5">
+            <caption>Student Grades</caption>
+            <thead>
+                <tr>
+                    <th>student name</th>
+                    <th>course name</th>
+                    <th>grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fred Marchena</td>
+                    <td>Web development</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Web dev. 2</td>
+                    <td>A+</td>
+                </tr>
+
+
+
+            </tbody>
+            </table>
+            <table border="1">
+                <caption>Student grades</caption>
+                <thead>
+
+                    <tr>
+                        <th rowspan="2">NAMES</th>
+                        <th colspan="2">SCORES</th>
+
+                    </tr>
+                    <tr>
+                        <th>Maths</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <th colspan="3">TOTAL WIDHT</th>
+                    </tr>
+
+                </thead>
+            </table>
+            <caption>table test</caption>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">weekday</th>
+                        <th colspan="2">month</th>
+                    </tr>
+                    <tr>
+                        <th>monday</th>
+                        <th>wednesday</th>
+                        <th>january</th>
+                        <th>may</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+
+                </tbody>
+            </table>
+    
+
+        <!-- FORM ELEMENTS -->
+        <h2>Form Elements</h2>
+        <form action="./thanks.html" method="get">
+
+            <label for="fullname">Name:</label>
+            <input id="fullname" type="text" name="fullname">
+
+            <label for="userEmail">Email:</label>
+            <input id="userEmail" type="email" name="email">
+
+            <label for="range">Amount:</label>
+            <input id="range" type="number" name="Amount" min="1" max="50">
+            
+            <!--dropdown menu-->
+            <label for="rock">Choose your rock:</label>
+            <select id="rock" name="rock">
+                <option value="marth">Marth</option>
+                <option value="human">Earth</option>
+                <option value="saturn">Saturn</option>
+             </select>
+
+             <!--radio button-->
+             <p>choose your volume</p>
+             <label for="little">0-1</label>
+             <input type="radio" id="little" name="musictime" value="0-1">
+             <label for="medium">2-3</label>
+             <input type="radio" id="medium" name="musictime" value="2-3">
+             <label for="loud">4-5</label>
+             <input type="radio" id="loud" name="musictime" value="4-5">
+             <label for="outloude">6-8</label>
+             <input type="radio" id="outloude" name="musictime" value="6-8">
+
+            <button type="submit">Send</button>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
