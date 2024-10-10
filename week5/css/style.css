@@ -1,0 +1,52 @@
+header{
+    background-color: aquamarine;
+    padding: 1rem;
+    margin: 2rem;
+    
+   
+}
+
+h1{
+    color: red;
+
+}
+/* this is a demo comment */
+/* targeting h1 h2 h3 */
+h1, h2, h3{
+
+/* border: 1px solid darkgrey */
+border: 1px solid darkgray;
+}
+
+/* target all paragraph */
+p{
+    font-weight: 600;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+/* target paragraph between a div */
+div p{
+    font-weight: 150;
+}
+.highlight{
+    background-color: gold;
+    
+}
+
+.goals{
+    color: blue;
+}
+/* when targeting an id */
+#explain{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+   
+}
+
+li:nth-child(even){
+    background-color: skyblue;
+}
+li:nth-child(odd){
+    background-color: yellowgreen;
+}
