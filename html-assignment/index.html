@@ -4,58 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>html-assignment</title>
 </head>
 
 <body>
     <header>
-        <center>
-            <h1 style="color:rgb(5, 53, 135);"><a id="top">FREDDY DE MARCHENA</a></h1>
-        </center>
+
+        <h1 class="toptitle" id="top">FREDDY DE MARCHENA</h1>
+
     </header>
     <main>
         <article>
-            <center>
-                <h3>About Me.</h3>
-            </center>
-        </article>
-        <center>
-            <p>I am a Graphic Designer with a lot of experience in the design of printed advertisements and signs.
-                I have been an <br>entrepreneur since 2003, Creating my advertising workshop. My family is my
-                mayor value, working as an engine <br>to support me in my journey. As a student, my goal is to update
-                and
-                learn new skills to reach a higher level of <br>knowledge and apply them to my business.</p>
 
-            <p>In summary, I can say that I am a creative mind who loves his work and have a beautiful family
-                that always<br> back me up helping me to reach the goals that lead to give them a better future.
-                Also, I am passionate about <br> motorcycle driving and adventure and my wife is as well, as we knew
-                each
-                other
-                riding motorcycle we share <br>a lot of adventures making our relationship stronger every day. We make
-                an 
-                excellent team to challenge life <br>and business goals.</p>
-        </center>
+            <h3>About Me.</h3>
+
+        </article>
+
+        <blockquote><p>I am a Graphic Designer with a lot of experience in the design of printed advertisements and signs.
+            I have been<br> an entrepreneur since 2003, Creating my advertising workshop. My family is my
+            mayor value, working as an engine <br>to support me in my journey. As a student, my goal is to update
+            and
+            learn new skills to reach a higher level of <br>knowledge and apply them to my business.</p>
+
+        <p>In summary, I can say that I am a creative mind who loves his work and have a beautiful family
+            that always<br> back me up helping me to reach the goals that lead to give them a better future.
+            Also, I am passionate about <br> motorcycle driving and adventure and my wife is as well, as we knew
+            each
+            other
+            riding motorcycle we share <br>a lot of adventures making our relationship stronger every day. We make
+            an 
+            excellent team to challenge life <br>and business goals.</p>
+        </blockquote>
 
 
         <h3>Quote</h3>
-     
+
         <blockquote>"Dreams without goals are just dreams. and ultimately, they fuel disappointment. on the road, to
             achieving your dreams, you must apply discipline but more importantly, consistency. because without
             commitment you'll never start, but without consistency, you'll never finish" <cite>Denzel Washington.</cite>
         </blockquote>
-      
+
         <h3>THINGS I LOVE TO DO:</h3>
-        <ul>
-            <li>Spend time with my family</li>
-            <li>Ride motorcycles</li>
-            <li>Excercise</li>
-            <li>Work on my projects</li>
-            <li>Dating my wife </li>
-        </ul>
+        <div>
+            <ul class="bullets">
+
+                <li>Spend time with my family</li>
+                <li>Ride motorcycles</li>
+                <li>Excercise</li>
+                <li>Work on my projects</li>
+                <li>Dating my wife </li>
+
+            </ul>
+        </div>
 
         <h2>One of my favourite pictures</h2>
 
-        <img src="./images/freddy-pic.jpg" alt="Freddy and Rosa" width="650">
+        <img id="my-image" src="./images/freddy-pic.jpg" alt="Freddy and Rosa" width="650">
         <h3 style="color:rgb(5, 53, 135);">My two preferred hobbies are:</h3>
 
         <ul>
@@ -63,14 +68,14 @@
             <li>Hang out with my wife</li>
         </ul>
 
-        <p><a href="./notes.html">For aditional notes press here</a></p>
+        <p><a class="button" href="./notes.html">For aditional notes press here</a></p>
     </main>
 
     <hr>
-    <footer>
+    <footer id="closing">
         <p><sup>&copy;</sup><abbr> FDM </abbr>Corporation<sup>TM</sup></p>
         <p>Contact us at:</p>
-        <address>Algonquin College, Ottawa Campus<br>Phone: 333-444-5566</address>
+        <p><address>Algonquin College, Ottawa</p> <p>Campus Phone: 333-444-5566</address></p>
     </footer>
     <p><a href="#top">Return to Top</a></p>
 

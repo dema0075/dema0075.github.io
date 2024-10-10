@@ -1,0 +1,52 @@
+body{
+    font-family: verdana;
+    font-size: 18px;
+}
+header, footer{
+    background-color: rgb(12, 39, 134);
+}
+.toptitle{
+    color: rgb(167, 167, 167);
+}
+#my-image{
+    box-shadow: 0px 0px 2px 2px black;
+    margin-left: 30px;
+}
+
+.bullets{
+    list-style-type: square; 
+
+}
+.bullets li:nth-child(odd){
+    color: rgb(166, 166, 166);
+    background-color: rgb(12, 39, 134);
+    
+}
+
+#closing{
+    color: rgb(166, 166, 166);
+    text-align: center;
+    padding-block: 10px;
+    line-height: 5px;
+    font-size: small;
+}
+a:link, a:visited {
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+  }
+  
+  a:hover{
+    background-color: rgb(168, 168, 168); 
+    color: red;
+    transition: 1s;
+  }
+
+
+
+
