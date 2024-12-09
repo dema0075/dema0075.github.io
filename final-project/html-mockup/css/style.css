@@ -143,18 +143,19 @@ ul li a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     height: 25px;
     margin: 1rem 0;
 }
 
 .searchb #search{
-    flex-basis: calc(91% - 4px)
+    flex-basis: calc(90% - 2px)
 }
 .searchb i{
-    flex-basis: calc(4% - 4px)
+    flex-basis: calc(5% - 2px)
 }
 button {
-    width: 4%;
+    
     height: 100%;
     color: #c78c06;
     border-color: #c78c06;
