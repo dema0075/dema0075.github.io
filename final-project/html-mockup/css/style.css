@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) and (max-width: 759px){
+@media screen and (min-width: 400px) and (max-width: 1200px){
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -281,8 +281,8 @@ main  {
 }
 /* contact, schedule and location */
 iframe {
-    width: 100%;
-    padding: 1rem;
+    width: 95%;
+    padding: 0 1rem ;
 }
 
 .contact input {
@@ -322,7 +322,7 @@ td {
 }
 
 /* desktop style */
-@media screen and (min-width: 760px) and (max-width: 1400px){
+@media screen and (min-width: 760px) and (max-width: 1200px){
     html {
         font-size: 16px;
     }
