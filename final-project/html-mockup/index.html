@@ -8,136 +8,185 @@
     <!-- link for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- navigation  -->
     <header>
-        <img src="../html-mockup/images/logo.png" alt="">
+        <div class="stars" id="home"><img src="../html-mockup/images/logo.png" alt="">
+        </div>
         <ul class="navbar">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Team</li>
-            <li>Contact</li>
+            <li class="nav"><a href="#home">Home</a></li>
+            <li class="nav"><a href="#about">About Us</a></li>
+            <li class="nav"><a href="#services">Services</a></li>
+            <li class="nav"><a href="#owners">Team</a></li>
+            <li class="nav"><a href="#contact">Contact</a></li>
         </ul>
-        <label for="search">Search</label>
-        <input id="search" type="text" name="search"><button type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i></button>
-
-        <!-- banner -->
-        <h1>Welcome to Three Star Media</h1>
-        <img src="../html-mockup/images/main-banner.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro expedita sint nostrum ex vel illo,
-            suscipit culpa autem temporibus natus aliquid eaque minima at quia. Unde molestias mollitia delectus?</p>
-        <a href="">Connect with us:</a>
+        <div class="searchb">
+            <input id="search" type="text" name="search" placeholder="Search"><button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
     </header>
+    <!-- banner -->
+    <div class="box">
+        <div class="welcome">
+            <div id="blackbox">
+                <div class="btext">
+                    <h2>Welcome to Three Star Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro expedita sint nostrum ex vel
+                        illo,
+                        suscipit culpa autem temporibus natus aliquid eaque minima at quia. Unde molestias mollitia
+                        delectus?
+                    </p>
+                    <a href="">Connect with us <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- main section -->
     <main class="container">
-        <div class="about">
+        <div class="about" id="about">
             <img src="../html-mockup/images/about-us.jpg" alt="">
-            <h2>About us</h2>
+            <div class="abtext"><h2>About us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex doloremque eaque dolore, ipsam
                 aliquam rem recusandae corporis dolores officia nemo aperiam? Officia culpa error asperiores,
                 praesentium placeat harum soluta?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident sunt mollitia eum dicta
+                vero
+                officia rerum velit consectetur ex corrupti excepturi delectus, quidem praesentium ratione? Consectetur
+                aut
+                tempore velit.</p>
+            </div>
         </div>
-        <div class="services">
-            <h2>Our Services</h2>
-            <img src="../html-mockup/images/digital.jpg" alt="">
-            <h3>Digital Transformation</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut corrupti sequi porro cumque? Temporibus
-                nihil ea atque necessitatibus beatae iste mollitia inventore? Sequi, odit reiciendis! Ipsa harum
-                architecto adipisci dolorem.</p>
-            <a href="">Digital plans:</a>
-        </div>
-        <div class="marketing">
-            <img src="../html-mockup/images/marketing.jpg" alt="">
-            <h2>Marketing</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero blanditiis asperiores delectus
-                tenetur unde deleniti esse nihil porro? Neque, debitis ducimus? Similique voluptates quasi
-                magnam
-                consequatur, corporis soluta aliquam deserunt.</p>
-            <a href="">Marketing Plans:</a>
-        </div>
-        <div class="video">
-            <img src="../html-mockup/images/video.jpg" alt="">
-            <h2>Video Production</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias tempora illo minima, nam
-                neque!
-                Quidem maxime veniam ullam possimus, adipisci asperiores architecto. Illo quasi officiis id
-                pariatur
-                perspiciatis ipsam.</p>
-            <a href="">Video Plans:</a>
-        </div>
-        <div>
-            <img src="../html-mockup/images/web.jpg" alt="">
-            <h2>Web Development</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi esse quam officiis perferendis
-                iusto
-                aliquam provident nisi? Dolores in placeat, animi quam nisi quisquam omnis odit repellat ratione
-                quas dignissimos!</p>
-            <a href="">Web Plans:</a>
-        </div>
-        <div>
-            <img src="../html-mockup/images/print.jpg" alt="">
-            <h2>Print</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione necessitatibus quod explicabo
-                error
-                placeat voluptates! Sed vero assumenda quaerat dolore accusamus reiciendis debitis, nulla
-                tenetur
-                dolores sapiente ipsam vel quidem.</p>
-            <a href="">Print plans:</a>
-        </div>
+        <section id="services">
+            <div class="services">
+                <h2>Our Services</h2>
+                
+                    <div class="servicesd">
+                        <div class="digital">
+                            <img src="../html-mockup/images/digital.jpg" alt="">
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut corrupti sequi porro
+                                cumque?
+                                Temporibus
+                                nihil ea atque necessitatibus beatae iste mollitia inventore? Sequi, odit reiciendis!
+                                Ipsa
+                                harum
+                                architecto adipisci dolorem.</p>
+                            <a href="">Digital plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                        <div class="marketing">
+                            <img src="../html-mockup/images/marketing.jpg" alt="">
+                            <h3>Marketing</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero blanditiis asperiores
+                                delectus
+                                tenetur unde deleniti esse nihil porro? Neque, debitis ducimus? Similique voluptates
+                                quasi
+                                magnam
+                                consequatur, corporis soluta aliquam deserunt.</p>
+                            <a href="">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                        <div class="video">
+                            <img src="../html-mockup/images/video.jpg" alt="">
+                            <h3>Video Production</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias tempora illo minima,
+                                nam
+                                neque!
+                                Quidem maxime veniam ullam possimus, adipisci asperiores architecto. Illo quasi officiis
+                                id
+                                pariatur
+                                perspiciatis ipsam.</p>
+                            <a href="">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                        <div class="web">
+                            <img src="../html-mockup/images/web.jpg" alt="">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi esse quam officiis
+                                perferendis
+                                iusto
+                                aliquam provident nisi? Dolores in placeat, animi quam nisi quisquam omnis odit repellat
+                                ratione
+                                quas dignissimos!</p>
+                            <a href="">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                        <div class="print">
+                            <img src="../html-mockup/images/print.jpg" alt="">
+                            <h3>Print</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione necessitatibus quod
+                                explicabo
+                                error
+                                placeat voluptates! Sed vero assumenda quaerat dolore accusamus reiciendis debitis,
+                                nulla
+                                tenetur
+                                dolores sapiente ipsam vel quidem.</p>
+                            <a href="">Print plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </section>
 
         <section>
             <div class="vision">
                 <h2>Our Vision</h2>
-                <img src="../html-mockup/images/vision.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, nemo qui! Incidunt soluta fuga
                     cumque repudiandae natus quam nam quod quibusdam quisquam eveniet possimus sunt nulla nostrum
                     rerum, temporibus explicabo.</p>
-                <a href="">Learn more:</a>
+                <a href="" id="learn">Learn more <i class="fa-solid fa-caret-right"></i></a>
             </div>
         </section>
         <!-- personel section -->
-        <section>
+
+
+        <section class="owners" id="owners">
             <div>
                 <h2>Our Team</h2>
             </div>
             <div class="ceo">
                 <img src="../html-mockup/images/john.jpg" alt="">
-                <h3>John Doe</h3>
-                <h4>CEO and Co-owner</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat et sed placeat cum a fuga ex,
-                    dolore accusamus, voluptatibus explicabo dolorem, repellendus dignissimos voluptas dolorum
-                    consequuntur autem suscipit quae in?</p>
+                <div class="ceoinfo">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat et sed placeat cum a fuga ex,
+                        dolore accusamus, voluptatibus explicabo dolorem, repellendus dignissimos voluptas dolorum
+                        consequuntur autem suscipit quae in?</p>
+                </div>
             </div>
             <div class="cfo">
                 <img src="../html-mockup/images/bob.jpg" alt="">
-                <h3>Bob Rite</h3>
-                <h4>CFO and Co-owner</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat et sed placeat cum a fuga ex,
-                    dolore accusamus, voluptatibus explicabo dolorem, repellendus dignissimos voluptas dolorum
-                    consequuntur autem suscipit quae in?</p>
+                <div class="cfoinfo">
+                    <h3>Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat et sed placeat cum a fuga ex,
+                        dolore accusamus, voluptatibus explicabo dolorem, repellendus dignissimos voluptas dolorum
+                        consequuntur autem suscipit quae in?</p>
+                </div>
             </div>
         </section>
         <!-- contact form -->
-        <section>
+        <div class="contacttitle">
+            <h2>Contact Us:</h2>
+        </div>
+        <section class="contactinfo" id="contact">
+
             <div class="contact">
-                <h2>Contact Us:</h2>
                 <h3>Send us a message</h3>
-                <label for="fullname">Full name:</label>
+                <label for="fullname">Full name:</label><br>
                 <input id="fullname" type="text" name="fullname"><br>
 
-                <label for="userEmail">Email:</label>
+                <label for="userEmail">Email:</label><br>
                 <input id="userEmail" type="email" name="email"><br>
 
-                <label for="message">Message</label>
+                <label for="message">Message</label><br>
                 <input id="message" type="text" name="message"><br>
                 <button type="submit">Send</button>
             </div>
-            <div>
-                <!-- table for schedule -->
+            <!-- table for schedule -->
+            <div class="schedule">
                 <h3>Hours of operation</h3>
                 <table border="1">
                     <thead>
@@ -146,17 +195,17 @@
                             <th colspan="1">Hours</th>
                         </tr>
                         <tr>
-                            <th rowspan="1">Monday - Friday</th>
-                            <th colspan="1">9:00 am - 6:00 pm</th>
+                            <td rowspan="1">Monday - Friday</td>
+                            <td colspan="1">9:00 am - 6:00 pm</td>
                         </tr>
                         <tr>
-                            <th rowspan="1">Saturdays - Sundays</th>
-                            <th colspan="1">Close</th>
+                            <td rowspan="1">Saturdays - Sundays</td>
+                            <td colspan="1">Close</td>
                         </tr>
                     </thead>
                 </table>
             </div>
-            <div>
+            <div class="locate">
                 <!-- location map link -->
                 <h3>Location</h3>
                 <iframe
