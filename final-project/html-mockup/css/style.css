@@ -1,3 +1,4 @@
+@media screen and (min-width: 400px) and (max-width: 759px){
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -318,10 +319,10 @@ th {
 td {
     padding: 1rem;
 }
-
+}
 
 /* desktop style */
-@media screen and (min-width: 760px){
+@media screen and (min-width: 760px) and (max-width: 1400px){
     html {
         font-size: 16px;
     }
